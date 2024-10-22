@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    image: registry2.papagroup.net/webgame-store/snake.io:1.1
+    ports:
+      - "8080:80"
